@@ -18,30 +18,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.}KŪRIMO PJŪVIS}{9}
 \defcounter {refsection}{0}\relax 
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {5.1.}Proceso sekų diagramos}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.}Proceso „Prisijungimas” sekų diagrama}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.}Veiklos diagramos}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.}Žinutės išsiuntimo veiklos diagrama}{11}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.}Naujienos paskelbimo veiklos diagrama}{12}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}RYŠIAI TARP PJŪVIŲ}{13}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{IŠVADOS}{14}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{ŠALTINIAI}{15}
-=======
 \contentsline {section}{\numberline {4.}FIZINIS PJŪVIS}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.}PROCESO PJŪVIS}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}RYŠIAI TARP PJŪVIŲ}{12}
+\contentsline {subsection}{\numberline {5.1.}Proceso sekų diagramos}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{IŠVADOS}{13}
+\contentsline {subsubsection}{\numberline {5.1.1.}Proceso „Prisijungimas” sekų diagrama}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ŠALTINIAI}{14}
->>>>>>> af0fb3b92a3350846ccf4700a59e77c60d4ef1d7
+\contentsline {subsection}{\numberline {5.2.}Veiklos diagramos}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1.}Žinutės išsiuntimo veiklos diagrama}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.2.}Naujienos paskelbimo veiklos diagrama}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.}RYŠIAI TARP PJŪVIŲ}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{IŠVADOS}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ŠALTINIAI}{16}
