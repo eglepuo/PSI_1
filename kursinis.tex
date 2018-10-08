@@ -44,7 +44,11 @@
 \cleardoublepage\pagenumbering{arabic}
 \setcounter{page}{2}
 \sectionnonum{ANOTACIJA}
-ANDRIUS
+Šiame dokumente pateikiami funkciniai ir nefunkciniai reikalavimai sistemai. Sistema ana-
+lizuojama taikant ICONIX metodą. Apibrėžiamas struktūrinis dalykinės srities modelis, paaiški-
+namos sistemoje naudojamos sąvokos. Taip pat aprašomos sistemoje atliekamos užduotys, anali-
+zuojami pagrindiniai ir alternatyvūs užduoties scenarijai, naudojant sekų diagramas. Apibrėžiama
+techninė kuriamos sistemos architektūra bei testavimo planas ir scenarijai.
 \newpage
 %TURINYS
 \tableofcontents
@@ -66,7 +70,26 @@ Dokumentas parengtas kaip Programų sistemų inžinerijos I laboratorinis dar
 EGLĖ
 \newpage
 \section{LOGINIS PJŪVIS}
-ANDRIUS
+Loginį pjūvį sudaro klasių diagramos, kurios naudojamos pavaizduoti sistemos architektūros projektavimo etapus.
+\subsection{Esybių klasių diagrama (nulinis lygis)}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/dalykine.png}
+\label{fig:dalykine}
+\caption{Dalykinė srities UML diagrama}
+\end{figure}
+Esybių diagramoje \ref{fig:dalykine} vaizduojamos esybių sąsajos. Pagrindinė esybė Naudotojas,
+kuris gali būti Studentas, Dėstytojas arba Administratorius. Studentas turi galimybę naudotis pagrindinėmis puslapio funkcijos, o dėstytojai ir administratoriai pateikti naudingą studentams meždiagą. Taip pat studentai bei dėstytojai gali komunikuoti tarpusavyje nesinaudojant trečiųjų šalių komunikacinėmis priemonėmis. Administratoriai, savo ruožtu, pateikia informaciją apie renginius, naujienas ir D.U.K.
+\subsection{Klasių diagrama (pirmas lygis)}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/pagrindine.png}
+\label{fig:pagrindine}
+\caption{Dalykinė srities UML diagrama}
+\end{figure}
+Pagrindinį programos funkcionalumą užtikrina šios klasės: Studentas, Dėstytojas, Administratorius, Reitingas, Dėsytotojo puslapis, Naujienos, Autentifikacija, Duomenų bazė,
+D.U.K., Renginiai. Veikimą įgyvendinačių klasių tarpusavio bendradarbiavimas vaizduojamas asociacija, ge-
+neralizacija, kompozicija bei kardinalumus \ref{fig:pagrindine}.
 \newpage
 \section{UŽDUOČIŲ PJŪVIS}
 IEVA
