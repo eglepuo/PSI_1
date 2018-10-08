@@ -78,7 +78,44 @@ KASPARAS
 KASPARAS
 \newpage
 \section{PROCESO PJŪVIS}
-EGLĖ
+Procesų pjūvis sudarytas iš sekų ir veiklos diagramų. Diagramose parodoma, kokie procesai
+vyksta sistemoje bei išreiškiama komunikacija tarp jų.
+\subsection{Proceso sekų diagramos}
+Procesų sekų diagramose, atsispindi procesai, kurie yra vykdomi sistemoje. Iš proceso
+sekų diagramos galima matyti, kokie komponentai dalyvauja vykdyme, kaip procesas vykdomas.
+\subsubsection{Proceso „Prisijungimas” sekų diagrama}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{img/login.jpg}
+	\caption{Proceso „Prisijungimas” sekų diagrama}
+	\label{fig:login}
+\end{figure}
+Pagal \ref{fig:login} pav. diagramą matoma, kad procesas prasideda naudotojo paspaudimu ant nuorodos įgalinančios prisijungimą. Autentifikacijos
+UI gautus duomenis siunčia patikrinimui į autentifikacijos kontrolerį. Iš kontrolerio
+gaunamas atsakymas, ar duomenys teisingi ar ne. Jei duomenys klaidingi, vartotojui išmetamas pranešimas,
+jog prisijungti negalima ir jis vėl gali kartoti prisijungimo procesą. Jei duomenys teisingi,
+naudotojas yra nukreipiamas į pagrindinį puslapį.
+\subsection{Veiklos diagramos}
+Veiklos diagramos padeda suprasti dinaminį sistemos
+veikimą, parodo, kokie veiksmai atliekami vykdant konkrečią veiklą, galimus vykdymo atvejus.
+\subsubsection{Žinutės išsiuntimo veiklos diagrama}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/sendMessage.jpg}
+	\caption{Žinutės išsiuntimo veiklos diagrama}
+	\label{fig:sendMessage}
+\end{figure}
+\ref{fig:sendMessage} pav. diagramoje matomas, žinutės išsiuntimo dėstytojui procesas. Procesas prasideda naudotojo
+nuorodos paspaudimu, kreipiančios į žinutės išsiuntimo formą. Naudotojas pateikia parašo žinutę bei pasirenka dėstytoją, tuomet duomenys siunčiami patikrinimui. Jei dėstytojas nebuvo pasirinktas, naudotojas nukreipiamas
+atgal į žinutės siuntimo formą. Jei duomenys atitinka visus reikalavimus, tada žinutė išsiunčiama.
+\subsubsection{Naujienos paskelbimo veiklos diagrama}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/postNews.jpg}
+	\caption{Naujienos paskelbimo veiklos diagrama}
+	\label{fig:postNews}
+\end{figure}
+\ref{fig:postNews} pav. diagramoje matomas, naujienos paskelbimo procesas. Procesas prasideda naudotojo prisijungimu. Neteisingai suvedus prisijungimo duomenis naudotojas vėl nukreipiamas į prisjungimą, kitu atveju jis nukreipiamas į pagridinį puslapį bei pasirenka naujienos paskelbimo nuorodą. Naudotojas parašo naujieną bei ją paskelbia. Jei skelbiant naujieną įvyksta klaida jis nukreipiamas į naujienos rašymo formą, kitu atveju naujiena paskelbiama.
 \newpage
 \section{RYŠIAI TARP PJŪVIŲ}
 EGLĖ
