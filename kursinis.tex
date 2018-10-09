@@ -48,12 +48,19 @@
 lizuojama taikant ICONIX metodą. Apibrėžiamas struktūrinis dalykinės srities modelis, paaiški-
 namos sistemoje naudojamos sąvokos. Taip pat aprašomos sistemoje atliekamos užduotys, anali-
 zuojami pagrindiniai ir alternatyvūs užduoties scenarijai, naudojant sekų diagramas. Apibrėžiama
-techninė kuriamos sistemos architektūra bei testavimo planas ir scenarijai.
+techninė kuriamos sistemos architektūra bei testavimo planas ir scenarijai. Kuriamos sistemos architektūra aprašoma naudojant UML 4+1 požiūrių
+rinkinį. Žvelgiama į sistemą 5 skirtingais požiūriais. Loginis pjūvis skirtas parodyti sistemos
+funkcionalumą, aprašyti santykius tarp esybių. Užduočių pjūvyje pateiksime, kokias užduotis gali
+įgyvendinti naudotojas, kokie jų įgyvendimo scenarijai. Kūrimo pjūvyje pateikiama, kaip susiję atskiri
+komponentai. Fiziniame pjūvyje parodoma, kaip sistema išdėstoma tinkle, kaip ji diegiama,
+kokia įranga naudojama. Procesų pjūvis pateikia dinaminį sistemos modelį: paaiškina sistemoje
+vykstančius procesus, parodo, kaip procesai komunikuoja, galimus sistemos darbo atvejus.
 \newpage
 %TURINYS
 \tableofcontents
-
+\begin{center}
 \sectionnonum{ĮVADAS}
+\end{center}
 \textbf{Tikslas}  - sukurti socialinio tinklalalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.\\
 \textbf{Temos aktualumas} \\
 Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.\\
@@ -66,30 +73,27 @@ Socialinis Vilniaus Universiteto tinklapis suteiktų galimybę greitai ir papras
  \textbf{Darbo pagrindas} \\ 
 Dokumentas parengtas kaip Programų sistemų inžinerijos I laboratorinis darbas.
 \newpage
-\sectionnonum{KURIAMOS SISTEMOS ARCHITEKTŪRA}
-EGLĖ
-\newpage
 \section{LOGINIS PJŪVIS}
 Loginį pjūvį sudaro klasių diagramos, kurios naudojamos pavaizduoti sistemos architektūros projektavimo etapus.
 \subsection{Esybių klasių diagrama (nulinis lygis)}
 \begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{img/dalykine.png}
-\label{fig:dalykine}
 \caption{Dalykinė srities UML diagrama}
+\label{fig:dalykine}
 \end{figure}
-Esybių diagramoje \ref{fig:dalykine} vaizduojamos esybių sąsajos. Pagrindinė esybė Naudotojas,
+\ref{fig:dalykine} pav. esybių diagramoje vaizduojamos esybių sąsajos. Pagrindinė esybė Naudotojas,
 kuris gali būti Studentas, Dėstytojas arba Administratorius. Studentas turi galimybę naudotis pagrindinėmis puslapio funkcijos, o dėstytojai ir administratoriai pateikti naudingą studentams meždiagą. Taip pat studentai bei dėstytojai gali komunikuoti tarpusavyje nesinaudojant trečiųjų šalių komunikacinėmis priemonėmis. Administratoriai, savo ruožtu, pateikia informaciją apie renginius, naujienas ir D.U.K.
 \subsection{Klasių diagrama (pirmas lygis)}
 \begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{img/pagrindine.png}
-\label{fig:pagrindine}
 \caption{Dalykinė srities UML diagrama}
+\label{fig:pagrindine}
 \end{figure}
 Pagrindinį programos funkcionalumą užtikrina šios klasės: Studentas, Dėstytojas, Administratorius, Reitingas, Dėsytotojo puslapis, Naujienos, Autentifikacija, Duomenų bazė,
 D.U.K., Renginiai. Veikimą įgyvendinačių klasių tarpusavio bendradarbiavimas vaizduojamas asociacija, ge-
-neralizacija, kompozicija bei kardinalumus \ref{fig:pagrindine}.
+neralizacija, kompozicija bei kardinalumus (\ref{fig:pagrindine}  pav.).
 \newpage
 \section{UŽDUOČIŲ PJŪVIS}
 Šiame skyriuje aprašomas kuriamo socialinio tinklalapio galimi panaudojimo atvejai. Pasinaudojant užduočių diagrama pateikiami studento ir dėstytojo (SocialVU naudotojų) tikslai socialiniam tinklalapiui. Kiekvienai užduočiai pateikiamas scenarijus, kuris parodo, kaip užduotis įgyvendinama.
@@ -97,8 +101,8 @@ Šiame skyriuje aprašomas kuriamo socialinio tinklalapio galimi panaudojimo a
 \begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{img/socpslSistema.png}
-\label{fig:socpslsist}
 \caption{Socialiniame tinklalapyje vykdomos užduotys}
+\label{fig:socpslsist}
 \end{figure}
 Sistemoje vykdomos pagrindinės užduotys: studentas gali peržiūrėti pasirinkto dėstytojo puslapius. Dėstytojams sudaroma galimybė pateikti aktualias naujienas, informaciją apie renginius, redaguoti savo asmeninius tinklalapius, kuriuose gali talpinti informaciją apie savo dėstomus dalykus bei kitą naudingą informaciją, kurią matys jų studentai. Tiek dėstytojai, tiek studentai gali gauti informaciją apie juos dominančius renginius, matyti aktualias naujienas, gauti bei siųsti žinutes.(\ref{fig:socpslsist} pav.).
 \subsection{Užduočių vykdymo scenarijai}
@@ -266,7 +270,7 @@ Užduočių vykdymo scenarijai, atvaizduoja agentų, šiuo atveju studento 
 	\caption{Užduoties "Peržiūrėti D.U.K." scenarijus}
 	\label{fig:viewDUK}
 \end{figure}
-\textbf{Žingsnių seka (\ref{fig:viewEvent}pav.)}\\
+\textbf{Žingsnių seka (\ref{fig:viewDUK}pav.)}\\
 \begin{enumerate}
 	\item Gauti D.U.K. sąrašą - dėstytojas paspaudžia nuorodą į D.U.K. sąrašą.
 	\item Gauti D.U.K. sąrašą - prašymas gauti D.U.K. sąrašą keliauja iki duomenų bazės.
@@ -324,7 +328,7 @@ Užduočių vykdymo scenarijai, atvaizduoja agentų, šiuo atveju studento 
 \subsection{Užduoties "Siųsti žinutę" scenarijus}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.65]{img/sendMess.png}
+	\includegraphics[scale=0.65]{img/uzdSiustiZinute.png}
 	\caption{Užduoties "Siųsti žinutę" scenarijus}
 	\label{fig:sendMess}
 \end{figure}
@@ -384,12 +388,14 @@ atgal į žinutės siuntimo formą. Jei duomenys atitinka visus reikalavimus, ta
 \end{figure}
 \ref{fig:postNews} pav. diagramoje matomas, naujienos paskelbimo procesas. Procesas prasideda naudotojo prisijungimu. Neteisingai suvedus prisijungimo duomenis naudotojas vėl nukreipiamas į prisjungimą, kitu atveju jis nukreipiamas į pagridinį puslapį bei pasirenka naujienos paskelbimo nuorodą. Naudotojas parašo naujieną bei ją paskelbia. Jei skelbiant naujieną įvyksta klaida jis nukreipiamas į naujienos rašymo formą, kitu atveju naujiena paskelbiama.
 \newpage
-\section{RYŠIAI TARP PJŪVIŲ}
-EGLĖ
-\newpage
 \sectionnonum{IŠVADOS}
-KASNORS
+Kuriamos sistemos architektūra išnagrinėta naudojant UML 4+1 požiūrių rinkinį. Iš loginio, užduočių, kūrimo, fizinio bei procesų pjūvių matome sistemos funkcionalumą, užduotis, kurias gali
+įgyvendinti naudotojas, sąsajas tarp atskirų sistemos komponentų, sistemos įrangą bei dinaminį sistemos modelį.
 \newpage
 \sectionnonum{ŠALTINIAI}
-KASNORS
+\begin{enumerate}
+\item dr. Vytautas Valaitis internetinis puslapis (https://klevas.mif.vu.lt/~valaitis/) 
+\item doc., dr. Karolio Petrausko iternetinis puslapis (http://klevas.mif.vu.lt/~karolis/) 
+\item https://www.magicdraw.com/files/manuals/MagicDraw Tutorials.pdf
+\end{enumerate}
 \end{document}

@@ -6,47 +6,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{ĮVADAS}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{KURIAMOS SISTEMOS ARCHITEKTŪRA}{5}
+\contentsline {section}{\numberline {1.}LOGINIS PJŪVIS}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}LOGINIS PJŪVIS}{6}
+\contentsline {subsection}{\numberline {1.1.}Esybių klasių diagrama (nulinis lygis)}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Esybių klasių diagrama (nulinis lygis)}{6}
+\contentsline {subsection}{\numberline {1.2.}Klasių diagrama (pirmas lygis)}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.}Klasių diagrama (pirmas lygis)}{7}
+\contentsline {section}{\numberline {2.}UŽDUOČIŲ PJŪVIS}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}UŽDUOČIŲ PJŪVIS}{8}
+\contentsline {subsection}{\numberline {2.1.}Sistemoje vykdomos užduotys}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Sistemoje vykdomos užduotys}{8}
+\contentsline {subsection}{\numberline {2.2.}Užduočių vykdymo scenarijai}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Užduočių vykdymo scenarijai}{9}
+\contentsline {subsection}{\numberline {2.3.}Užduoties "Pridėti naujieną" scenarijus}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Užduoties "Pridėti naujieną" scenarijus}{9}
+\contentsline {subsection}{\numberline {2.4.}Užduoties "Ištrinti naujieną" scenarijus}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.}Užduoties "Ištrinti naujieną" scenarijus}{10}
+\contentsline {subsection}{\numberline {2.5.}Užduoties "Redaguoti naujieną" scenarijus}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.}Užduoties "Redaguoti naujieną" scenarijus}{10}
+\contentsline {subsection}{\numberline {2.6.}Užduoties "Peržiūrėti naujienas" scenarijus}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.}Užduoties "Peržiūrėti naujienas" scenarijus}{11}
+\contentsline {subsection}{\numberline {2.7.}Užduoties "Pridėti renginį" scenarijus}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.}Užduoties "Pridėti renginį" scenarijus}{12}
+\contentsline {subsection}{\numberline {2.8.}Užduoties "Ištrinti renginį" scenarijus}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.}Užduoties "Ištrinti renginį" scenarijus}{12}
+\contentsline {subsection}{\numberline {2.9.}Užduoties "Redaguoti renginį" scenarijus}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9.}Užduoties "Redaguoti renginį" scenarijus}{13}
+\contentsline {subsection}{\numberline {2.10.}Užduoties "Peržiūrėti renginius" scenarijus}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.10.}Užduoties "Peržiūrėti renginius" scenarijus}{14}
+\contentsline {subsection}{\numberline {2.11.}Užduoties "Pridėti D.U.K." scenarijus}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.11.}Užduoties "Pridėti D.U.K." scenarijus}{14}
+\contentsline {subsection}{\numberline {2.12.}Užduoties "Peržiūrėti D.U.K." scenarijus}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.12.}Užduoties "Peržiūrėti D.U.K." scenarijus}{15}
+\contentsline {subsection}{\numberline {2.13.}Užduoties "Redaguoti pasirinktą klausimą" scenarijus}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.13.}Užduoties "Redaguoti pasirinktą klausimą" scenarijus}{15}
+\contentsline {subsection}{\numberline {2.14.}Užduoties "Peržiūrėti pasirinkto dėstytojo teikiamą informaciją" scenarijus}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.14.}Užduoties "Peržiūrėti pasirinkto dėstytojo teikiamą informaciją" scenarijus}{16}
+\contentsline {subsection}{\numberline {2.15.}Užduoties "Peržiūrėti pasirinktą žinutę" scenarijus}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.15.}Užduoties "Peržiūrėti pasirinktą žinutę" scenarijus}{17}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.16.}Užduoties "Siųsti žinutę" scenarijus}{18}
+\contentsline {subsection}{\numberline {2.16.}Užduoties "Siųsti žinutę" scenarijus}{17}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.17.}Užduoties "Redaguoti asmeninį dėstytojo puslapį" scenarijus}{18}
 \defcounter {refsection}{0}\relax 
@@ -66,8 +64,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.2.2.}Naujienos paskelbimo veiklos diagrama}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}RYŠIAI TARP PJŪVIŲ}{24}
+\contentsline {section}{IŠVADOS}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{IŠVADOS}{25}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{ŠALTINIAI}{26}
+\contentsline {section}{ŠALTINIAI}{25}
