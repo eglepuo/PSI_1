@@ -92,7 +92,251 @@ D.U.K., Renginiai. Veikimą įgyvendinačių klasių tarpusavio bendradarbiavima
 neralizacija, kompozicija bei kardinalumus \ref{fig:pagrindine}.
 \newpage
 \section{UŽDUOČIŲ PJŪVIS}
-IEVA
+Šiame skyriuje aprašomas kuriamo socialinio tinklalapio galimi panaudojimo atvejai. Pasinaudojant užduočių diagrama pateikiami studento ir dėstytojo (SocialVU naudotojų) tikslai socialiniam tinklalapiui. Kiekvienai užduočiai pateikiamas scenarijus, kuris parodo, kaip užduotis įgyvendinama.
+\subsection{Sistemoje vykdomos užduotys}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/socpslSistema.png}
+\label{fig:socpslsist}
+\caption{Socialiniame tinklalapyje vykdomos užduotys}
+\end{figure}
+Sistemoje vykdomos pagrindinės užduotys: studentas gali peržiūrėti pasirinkto dėstytojo puslapius. Dėstytojams sudaroma galimybė pateikti aktualias naujienas, informaciją apie renginius, redaguoti savo asmeninius tinklalapius, kuriuose gali talpinti informaciją apie savo dėstomus dalykus bei kitą naudingą informaciją, kurią matys jų studentai. Tiek dėstytojai, tiek studentai gali gauti informaciją apie juos dominančius renginius, matyti aktualias naujienas, gauti bei siųsti žinutes.(\ref{fig:socpslsist} pav.).
+\subsection{Užduočių vykdymo scenarijai}
+Užduočių vykdymo scenarijai, atvaizduoja agentų, šiuo atveju studento ir dėstytojo, įmanomų įvykdyti užduočių veiksmus paeiliui , nuo pradžios iki užduoties vykdymo pabaigos.
+\subsection{Užduoties "Pridėti naujieną" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/addNew.png}
+	\caption{Užduoties "Pridėti naujieną" scenarijus}
+	\label{fig:addNew}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:addNew}pav.)}\\
+\begin{enumerate}
+	\item Sukurti naujieną - dėstytojas paspaudžia ant nuorodos leidžiančios sukurti naujieną.
+	\item Informacija apie naujieną? - naujienų UI išmeta dėstytojui naujienos formą užpildymui.
+	\item Naujienos informacija - naudotojas išsiunčia užpildytą formą naujienų UI.
+	\item Sukurti naujieną - įvesta naujienos informacija yra siunčiama kontroleriui.
+	\item Pridėti naujieną - darbų UI įdeda naujieną į duomenų bazę.
+	\item Naujiena pridėta - duomenų bazė parsiunčia naujienos patalpinimo patvirtinimą.
+	\item Gauti naujienų sąrašą - naujienų kontroleris prašo duomenų bazės pateikti naują naujienų sąrašą.
+	\item Naujienų sąrašas - naujienų sąrašas keliauja iš duomenų bazės iki dėstytojo.
+\end{enumerate}
+\subsection{Užduoties "Ištrinti naujieną" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/deleteNew.png}
+	\caption{Užduoties "Ištrinti naujieną" scenarijus}
+	\label{fig:delNew}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:delNew}pav.)}\\
+\begin{enumerate}
+	\item Ištrinti naujieną - dėstytojas paspaudžia nuorodą ištrinančią naujieną.
+	\item Patvirtinti ištrynimą? - naudotojas prašomas patvirtinti ištrynimą.
+	\item Patvirtinti ištrynimą - dėstytojas patvirtina ištrynimą.
+	\item Ištrinti naujieną - pateikiama naujiena ištrynimui įvykdyti.
+	\item Ištrinti naujieną - prašoma duomenų bazės surasti ir ištrinti naujieną.
+	\item Gauti naujienų sąrašą - siunčiamas prašymas naujienų sąrašui gauti iš duomenų bazės.
+	\item Naujienų sąrašas - atnaujintas sąrašas keliauja iki dėstytojo.
+\end{enumerate}
+\subsection{Užduoties "Redaguoti naujieną" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/editNew.png}
+	\caption{Užduoties "Redaguoti naujieną" scenarijus}
+	\label{fig:edNew}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:edNew}pav.)}\\
+\begin{enumerate}
+	\item Redaguoti naujieną - dėstytojas paspaudžia nuorodą leidžiančią redaguoti naujieną.
+	\item Redaguoti naujieną - pateikiama naujiena naujienų kontroleriui.
+	\item Surasti naujieną - naujiena ieškoma duomenų bazėje.
+	\item Naujiena - duomenų bazė pateikia naujieną kontroleriui.
+	\item Naujienos informacija -  informacija apie naujieną keliauja iki naudotojo.
+	\item Naujienos informacija - informacija apie naujieną keliauja iki naudotojo.
+	\item Išsaugoti pakeitimus - naudotojas prašo išsaugoti įvykdytus pakeitimus.
+	\item Redaguoti naujieną - naujiena siunčiama redagavimui.
+	\item Išsaugoti pakeitimus - pakeitimai išsaugomi duomenų bazėje.
+	\item Gauti naujienų sąrašą - kontroleris prašo duomenų bazės gauti atnaujintą naujienų sąrašą.
+	\item Naujienų sąrašas - naujienų sąrašas keliauja iš duomenų bazės iki dėstytojo.
+\end{enumerate}
+\subsection{Užduoties "Peržiūrėti naujienas" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/viewNew.png}
+	\caption{Užduoties "Peržiūrėti naujienas" scenarijus}
+	\label{fig:viewNew}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:viewNew}pav.)}\\
+\begin{enumerate}
+	\item Gauti naujienų sąrašą - dėstytojas paspaudžia nuorodą į naujienų sąrašą.
+	\item Gauti naujienų sąrašą - prašymas gauti naujienų sąrašą keliauja iki duomenų bazės.
+	\item Naujienų sąrašas - naujienų sąrašas iš duomenų bazės keliauja iki naudotojo.
+\end{enumerate}
+\subsection{Užduoties "Pridėti renginį" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/addNewEvent.png}
+	\caption{Užduoties "Pridėti renginį" scenarijus}
+	\label{fig:addNewEvent}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:addNewEvent}pav.)}\\
+\begin{enumerate}
+	\item Sukurti renginį - dėstytojas paspaudžia ant nuorodos leidžiančios sukurti renginį.
+	\item Informacija apie renginį? - renginių UI išmeta dėstytojui renginio formą užpildymui.
+	\item Renginio informacija - naudotojas išsiunčia užpildytą formą renginių UI.
+	\item Sukurti renginį - įvesta renginio informacija yra siunčiama kontroleriui.
+	\item Pridėti renginį - renginių UI įdeda renginį į duomenų bazę.
+	\item Renginys pridėtas - duomenų bazė parsiunčia renginio patalpinimo patvirtinimą.
+	\item Gauti renginių sąrašą - renginių kontroleris prašo duomenų bazės pateikti naują renginių sąrašą.
+	\item Renginių sąrašas - renginių sąrašas keliauja iš duomenų bazės iki dėstytojo.
+\end{enumerate}
+\subsection{Užduoties "Ištrinti renginį" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/deleteEvent.png}
+	\caption{Užduoties "Ištrinti renginį" scenarijus}
+	\label{fig:delEvent}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:delEvent}pav.)}\\
+\begin{enumerate}
+	\item Ištrinti renginį - dėstytojas paspaudžia nuorodą ištrinančią renginį.
+	\item Patvirtinti ištrynimą? - naudotojas prašomas patvirtinti ištrynimą.
+	\item Patvirtinti ištrynimą - dėstytojas patvirtina ištrynimą.
+	\item Ištrinti renginį - pateikiamas renginys ištrynimui įvykdyti.
+	\item Ištrinti renginį - prašoma duomenų bazės surasti ir ištrinti renginį.
+	\item Gauti renginių sąrašą - siunčiamas prašymas renginių sąrašui gauti iš duomenų bazės.
+	\item Renginių sąrašas - atnaujintas sąrašas keliauja iki dėstytojo.
+\end{enumerate}
+\subsection{Užduoties "Redaguoti renginį" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/editEvent.png}
+	\caption{Užduoties "Redaguoti renginį" scenarijus}
+	\label{fig:editEvent}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:editEvent}pav.)}\\
+\begin{enumerate}
+	\item Redaguoti renginį - dėstytojas paspaudžia nuorodą leidžiančią redaguoti renginį.
+	\item Redaguoti renginį - pateikiamas renginys renginių kontroleriui.
+	\item Surasti renginį - renginys ieškomas duomenų bazėje.
+	\item Renginys - duomenų bazė pateikia renginį kontroleriui.
+	\item Renginio informacija -  informacija apie renginį keliauja iki naudotojo.
+	\item Renginio informacija - informacija apie renginį keliauja iki naudotojo.
+	\item Išsaugoti pakeitimus - naudotojas prašo išsaugoti įvykdytus pakeitimus.
+	\item Redaguoti renginį - renginys siunčiamas redagavimui.
+	\item Išsaugoti pakeitimus - pakeitimai išsaugomi duomenų bazėje.
+	\item Gauti renginių sąrašą - kontroleris prašo duomenų bazės gauti atnaujintą renginių sąrašą.
+	\item Renginių sąrašas - renginių sąrašas keliauja iš duomenų bazės iki dėstytojo.
+\end{enumerate}
+\subsection{Užduoties "Peržiūrėti renginius" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/viewEvent.png}
+	\caption{Užduoties "Peržiūrėti renginius" scenarijus}
+	\label{fig:viewEvent}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:viewEvent}pav.)}\\
+\begin{enumerate}
+	\item Gauti renginių sąrašą - dėstytojas paspaudžia nuorodą į renginių sąrašą.
+	\item Gauti renginių sąrašą - prašymas gauti renginių sąrašą keliauja iki duomenų bazės.
+	\item Renginių sąrašas - renginių sąrašas iš duomenų bazės keliauja iki naudotojo.
+\end{enumerate}
+\subsection{Užduoties "Pridėti D.U.K." scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/addDUK.png}
+	\caption{Užduoties "Pridėti D.U.K." scenarijus}
+	\label{fig:addDuk}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:addDuk}pav.)}\\
+\begin{enumerate}
+	\item Pridėti D.U.K. - dėstytojas paspaudžia ant nuorodos leidžiančios sukurti D.U.K.
+	\item Informacija apie klausimą? - D.U.K. UI išmeta dėstytojui D.U.K. formą užpildymui.
+	\item Klausimo informacija - naudotojas išsiunčia užpildytą formą D.U.K. UI.
+	\item Sukurti  klausimą - įvesta klausimo informacija yra siunčiama kontroleriui.
+	\item Pridėti klausimą - D.U.K. UI įdeda klausimą į duomenų bazę.
+	\item Klausimas pridėtas - duomenų bazė parsiunčia klausimo patalpinimo patvirtinimą.
+	\item Gauti D.U.K. sąrašą - D.U.K. kontroleris prašo duomenų bazės pateikti naują D.U.K. sąrašą.
+	\item D.U.K. sąrašas - D.U.K. sąrašas keliauja iš duomenų bazės iki dėstytojo.
+\end{enumerate}
+\subsection{Užduoties "Peržiūrėti D.U.K." scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/viewDUK.png}
+	\caption{Užduoties "Peržiūrėti D.U.K." scenarijus}
+	\label{fig:viewDUK}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:viewEvent}pav.)}\\
+\begin{enumerate}
+	\item Gauti D.U.K. sąrašą - dėstytojas paspaudžia nuorodą į D.U.K. sąrašą.
+	\item Gauti D.U.K. sąrašą - prašymas gauti D.U.K. sąrašą keliauja iki duomenų bazės.
+	\item D.U.K. sąrašas - D.U.K. sąrašas iš duomenų bazės keliauja iki naudotojo.
+\end{enumerate}
+\subsection{Užduoties "Redaguoti pasirinktą klausimą" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/editDUK.png}
+	\caption{Užduoties "Redaguoti pasirinktą klausimą" scenarijus}
+	\label{fig:editDuk}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:editDuk}pav.)}\\
+\begin{enumerate}
+	\item Redaguoti pasirinktą klausimą - dėstytojas paspaudžia nuorodą leidžiančią redaguoti klausimą.
+	\item Redaguoti pasirinktą klausimą - pateikiamas klausimas D.U.K. kontroleriui.
+	\item Surasti pasirinktą klausimą - klausimas ieškomas duomenų bazėje.
+	\item Pasirinktas klausimas - duomenų bazė pateikia klausimą kontroleriui.
+	\item Klausimo informacija -  informacija apie klausimą keliauja iki naudotojo.
+	\item Klausimo informacija - informacija apie klausimą keliauja iki naudotojo.
+	\item Išsaugoti pakeitimus - naudotojas prašo išsaugoti įvykdytus pakeitimus.
+	\item Redaguoti klausimą - klausimas siunčiamas redagavimui.
+	\item Išsaugoti pakeitimus - pakeitimai išsaugomi duomenų bazėje.
+	\item Gauti D.U.K. sąrašą - kontroleris prašo duomenų bazės gauti atnaujintą D.U.K. sąrašą.
+	\item D.U.K. sąrašas - D.U.K. sąrašas keliauja iš duomenų bazės iki dėstytojo.
+\end{enumerate}
+\subsection{Užduoties "Peržiūrėti pasirinkto dėstytojo teikiamą informaciją" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/viewLecturer.png}
+	\caption{Užduoties "Peržiūrėti pasirinkto dėstytojo teikiamą informaciją" scenarijus}
+	\label{fig:viewLec}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:viewLec}pav.)}\\
+\begin{enumerate}
+	\item Gauti dėstytojų sąrašą - studentas paspaudžia nuorodą į dėstytojų sąrašą.
+	\item Gauti dėstytojų sąrašą - prašymas gauti dėstytojų sąrašą keliauja iki duomenų bazės.
+	\item Gauti dėstytojų sąrašą - prašymas gauti dėstytojų sąrašą keliauja iki duomenų bazės.
+	\item Dėstytojų sąrašas - duomenų sąrašas keliauja iki naudotojo.
+	\item Dėstytojų sąrašas -  duomenų sąrašas keliauja iki naudotojo.
+	\item Pasirinkite dėstytoją - prašoma pasirinkti, kurio dėstytojo puslapį norima matyti.
+	\item Pasirinktas dėstytojas - pasirenkamas dėstytojas, kurio informacija domina.
+	\item Rodyti tik pasirinktą dėstytoją - dėstytojas siunčiamas kontroleriui.
+	\item Surasti pasirinktą dėstytoją -  D.U.K. kontroleris prašo duomenų bazės pateikti dėstytojo puslapį.
+	\item Pasirinktas dėstytojas - dėstytojo puslapis keliauja iš duomenų bazės iki studento.
+\end{enumerate}
+\subsection{Užduoties "Peržiūrėti pasirinktą žinutę" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/viewMessage.png}
+	\caption{Užduoties "Peržiūrėti pasirinktą žinutę" scenarijus}
+	\label{fig:viewMess}
+\end{figure}
+\textbf{Žingsnių seka}\\
+\subsection{Užduoties "Siųsti žinutę" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/sendMess.png}
+	\caption{Užduoties "Siųsti žinutę" scenarijus}
+	\label{fig:sendMess}
+\end{figure}
+\textbf{Žingsnių seka}\\
+\subsection{Užduoties "Redaguoti asmeninį dėstytojo puslapį" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/editPage.png}
+	\caption{Užduoties  "Redaguoti asmeninį dėstytojo puslapį" scenarijus}
+	\label{fig:editPage}
+\end{figure}
+\textbf{Žingsnių seka}\\
 \newpage
 \section{KŪRIMO PJŪVIS}
 KASPARAS
