@@ -363,9 +363,20 @@ sekų diagramos galima matyti, kokie komponentai dalyvauja vykdyme, kaip procesa
 \end{figure}
 Pagal \ref{fig:login} pav. diagramą matoma, kad procesas prasideda naudotojo paspaudimu ant nuorodos įgalinančios prisijungimą. Autentifikacijos
 UI gautus duomenis siunčia patikrinimui į autentifikacijos kontrolerį. Iš kontrolerio
-gaunamas atsakymas, ar duomenys teisingi ar ne. Jei duomenys klaidingi, vartotojui išmetamas pranešimas,
+gaunamas atsakymas, ar duomenys teisingi ar ne. Jei duomenys klaidingi, naudotojui išmetamas pranešimas,
 jog prisijungti negalima ir jis vėl gali kartoti prisijungimo procesą. Jei duomenys teisingi,
 naudotojas yra nukreipiamas į pagrindinį puslapį.
+\subsubsection{Proceso „Konspekto įkėlimas” sekų diagrama}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{img/summary.jpg}
+	\caption{Proceso „Konspekto įkėlimas” sekų diagrama}
+	\label{fig:summary}
+\end{figure}
+Pagal \ref{fig:summary} pav. diagramą matoma, kad procesas prasideda naudotojo paspaudimu ant nuorodos įgalinančios konspekto įkėlimą. Konpekto įkėlimo UI gautus duomenis siunčia patikrinimui į konspektų kontrolerį. Iš kontrolerio
+gaunamas atsakymas, ar failas tinkamas ar ne. Jei failas netinkamas, naudotojui išmetamas pranešimas,
+jog failas netinkamas ir jis vėl gali kartoti konspekto įkėlimo procesą. Jei failas tinkamas, jis yra įkeliamas į duomenų bazę, o
+naudotojas yra nukreipiamas į konspektų puslapį.
 \subsection{Veiklos diagramos}
 Veiklos diagramos padeda suprasti dinaminį sistemos
 veikimą, parodo, kokie veiksmai atliekami vykdant konkrečią veiklą, galimus vykdymo atvejus.

@@ -58,12 +58,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.1.1.}Proceso „Prisijungimas” sekų diagrama}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.}Veiklos diagramos}{21}
+\contentsline {subsubsection}{\numberline {5.1.2.}Proceso „Konspekto įkėlimas” sekų diagrama}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.}Žinutės išsiuntimo veiklos diagrama}{22}
+\contentsline {subsection}{\numberline {5.2.}Veiklos diagramos}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.}Naujienos paskelbimo veiklos diagrama}{23}
+\contentsline {subsubsection}{\numberline {5.2.1.}Žinutės išsiuntimo veiklos diagrama}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{IŠVADOS}{24}
+\contentsline {subsubsection}{\numberline {5.2.2.}Naujienos paskelbimo veiklos diagrama}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ŠALTINIAI}{25}
+\contentsline {section}{IŠVADOS}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ŠALTINIAI}{26}
