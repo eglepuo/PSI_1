@@ -324,15 +324,38 @@ Užduočių vykdymo scenarijai, atvaizduoja agentų, šiuo atveju studento 
 	\caption{Užduoties "Peržiūrėti pasirinktą žinutę" scenarijus}
 	\label{fig:viewMess}
 \end{figure}
-\textbf{Žingsnių seka}\\
+\textbf{Žingsnių seka (\ref{fig:viewMess}pav.)}\\
+\begin{enumerate}
+	\item Peržiūrėti žinutes - naudotojas paspaudžia nuorodą peržiūrėti žinutes.
+	\item Gauti naudotojo žinutes - prašymas gauti žinutes keliauja iki duomenų bazės.
+	\item Gauti naudotojo žinutes - prašymas gauti žinutes keliauja iki duomenų bazės.
+	\item Naudotojo žinutės - žinučių sąrašas keliauja iki naudotojo.
+	\item Naudotojo žinutės - žinučių sąrašas keliauja iki naudotojo.
+	\item Pasirinkite žinutę - leidžiama pasirinkti, kurią žinutę norima matyti.
+	\item Pasirinkta žinutė - pasirenkama žinutė, kurios informacija domina.
+	\item Rodyti pasirinktos žinutės informaciją - žinutė siunčiama kontroleriui.
+	\item Surasti pasirinktą žinutę - Pašto kontroleris prašo duomenų bazės pateikti žinutę.
+	\item Pasirinkta žinutė - žinutė keliauja iš duomenų bazės kontroleriui.
+	\item Pasirinktos žinutės informacija - žinutė keliauja iš duomenų bazės naudotojui.
+\end{enumerate}
 \subsection{Užduoties "Siųsti žinutę" scenarijus}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.65]{img/uzdSiustiZinute.png}
+	\includegraphics[scale=0.65]{img/sendMes.png}
 	\caption{Užduoties "Siųsti žinutę" scenarijus}
 	\label{fig:sendMess}
 \end{figure}
-\textbf{Žingsnių seka}\\
+\textbf{Žingsnių seka (\ref{fig:sendMess}pav.)}\\
+\begin{enumerate}
+	\item Siųsti žinutę - naudotojas paspaudžia nuorodą siųsti žinutę.
+	\item Informacija apie žinutę - pašto UI išmeta naudotojui žinutės formą užpildymui.
+	\item Žinutės informacija - naudotojas suveda žinutės informaciją ir patvirtina siuntimą.
+	\item Išsiųsti žinutę - įvesta informacija yra siunčiama kontroleriui.
+	\item Pridėti žinutę - pašto UI įdeda žinutę į duomenų bazę.
+	\item Žinutė išsiųsta - kontroleris gauna patvirtinimą apie žinutės išsiuntimą.
+	\item Gauti naudotojo žinutes - kontroleris prašo duomenų bazės gauti naudotojo žinutes.
+	\item Naudotojo žinutės - naudotojo žinučių sąrašas keliauja iš duomenų bazės naudotojui.
+\end{enumerate}
 \subsection{Užduoties "Redaguoti asmeninį dėstytojo puslapį" scenarijus}
 \begin{figure}[H]
 	\centering
@@ -340,7 +363,18 @@ Užduočių vykdymo scenarijai, atvaizduoja agentų, šiuo atveju studento 
 	\caption{Užduoties  "Redaguoti asmeninį dėstytojo puslapį" scenarijus}
 	\label{fig:editPage}
 \end{figure}
-\textbf{Žingsnių seka}\\
+\textbf{Žingsnių seka (\ref{fig:editPage}pav.)}\\
+\begin{enumerate}
+	\item Redaguoti asmeninį puslapį - dėstytojas paspaudžia nuorodą redaguoti asmeninį puslapį.
+	\item Rodyti dėstytojo puslapį - prašymas rodyti puslapį keliauja į kontrolerį.
+	\item Surasti dėstytoją - kontroleris pateikia prašymą duomenų bazei surasti prisijungusį dėstytoją.
+	\item Dėstytojo puslapis - rasto dėstytojo puslapio informacija keliauja dėstytojui.
+	\item Išsaugoti pakeitimus - atlikęs pakeitimus savo puslapyje, dėstytojas paspaudžia nuorodą išsaugoti.
+	\item Redaguoti puslapį - įvesta informacija yra siunčiama kontroleriui.
+	\item Išsaugoti pakeitimus - dėstytojo kontroleris įdeda pakeistą informaciją į duomenų bazę.
+	\item Rodyti puslapį - kontroleris prašo duomenų bazės gauti redaguotą dėstytojo puslapio informaciją.
+	\item Asmeninis dėstytojo puslapis - dėstytojo puslapio informacija keliauja iš duomenų bazės dėstytojui.
+\end{enumerate}
 \newpage
 \section{KŪRIMO PJŪVIS}
 Programų sistemos komponentai yra vaizduojami trimis lygmenimis: nuliniu, pirmuoju ir antruoju. Toks komponentų pateikimas leidžia išsamiau apibrėžti sistemos fizinius komponentus, jų konfigūraciją bei tarpusavio ryšius. Komponentų diagramos, atvaizduodamos struktūrą, priklausomybes bei sąsajas, leidžia susidaryti fizinį sistemos vaizdą. Taip pat suteikia galimybę apžvelgti išoriškai matomą komponentų elgseną. Komponentai atvaizduojami naudojant UML komponentų diagramas.
@@ -383,7 +417,31 @@ kuris rūpinasi duomenų įvestimi ir įvesties apdorojimu.
 
 \newpage
 \section{FIZINIS PJŪVIS}
-KASPARAS
+Fizinis pjūvis sudarytas iš dislokavimo diagramų. Šiose diagramose vaizduojamas programos komponentų išdėstymas tinkle bei komunikacijos protokolai tarp jų. 
+\subsection{Dislokavimo diagrama nr.1 (komponentų ir artefaktų ryšių diagrama)}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{img/compArtifacts.png}
+	\caption{Komponentų ir artefaktų ryšių diagrama}
+	\label{fig:compOne}
+\end{figure}
+Komponentų ir artefaktų ryšių diagramoje (\ref{fig:compOne}pav.) vaizduojamas artefaktas JobSys- tem.dll, kuris įgyvendina šiuos programos komponentus: Autentifikacija, Studentas, Dėstytojas, Naujienų sąrašas, Renginių sąrašas, Žinutės, Asmeninis puslapis.
+\subsection{Dislokavimo diagrama nr.2 (mazgų ir artefaktų ryšių diagrama)}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{img/knotArt.png}
+	\caption{Mazgų ir artefaktų ryšių diagrama}
+	\label{fig:compTwo}
+\end{figure}
+Mazgų ir artefaktų diagramoje (\ref{fig:compTwo}pav.) parodo, kad tinklalapis yra serveryje, kuris bendrauja hhtp protokolu su SQL serveriu, kuriame saugoma duomenų bazė. Naudotojai turi galimybe pasiekti sistemos teikiamas paslaugas savo pasirinkta naršykle, kuri palaiko http protokolą.
+\subsection{Dislokavimo diagrama nr.3 (mazgų ir artefaktų egzempliorių diagrama)}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{img/knotArtTwo.png}
+	\caption{Mazgų ir artefaktų egzempliorių diagrama}
+	\label{fig:compThree}
+\end{figure}
+\ref{fig:compThree}pav. vaizduojamas įrenginių (mazgų) išsidėstymas tinkle. Serveris turi tiesioginį ryšį su duomenų baze, o naudotojai gali prisijungti prie serverio. Tačiau nadotojai negali tiesiogiai pasiekti duomenų bazės ir joje saugomų duomenų.
 \newpage
 \section{PROCESO PJŪVIS}
 Procesų pjūvis sudarytas iš sekų ir veiklos diagramų. Diagramose parodoma, kokie procesai

@@ -58,20 +58,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.}FIZINIS PJŪVIS}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}PROCESO PJŪVIS}{23}
+\contentsline {subsection}{\numberline {4.1.}Dislokavimo diagrama nr.1 (komponentų ir artefaktų ryšių diagrama)}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.}Proceso sekų diagramos}{23}
+\contentsline {subsection}{\numberline {4.2.}Dislokavimo diagrama nr.2 (mazgų ir artefaktų ryšių diagrama)}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1.}Proceso „Prisijungimas” sekų diagrama}{23}
+\contentsline {subsection}{\numberline {4.3.}Dislokavimo diagrama nr.3 (mazgų ir artefaktų egzempliorių diagrama)}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.}Proceso „Konspekto įkėlimas” sekų diagrama}{24}
+\contentsline {section}{\numberline {5.}PROCESO PJŪVIS}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.}Veiklos diagramos}{24}
+\contentsline {subsection}{\numberline {5.1.}Proceso sekų diagramos}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.}Žinutės išsiuntimo veiklos diagrama}{25}
+\contentsline {subsubsection}{\numberline {5.1.1.}Proceso „Prisijungimas” sekų diagrama}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.}Naujienos paskelbimo veiklos diagrama}{26}
+\contentsline {subsubsection}{\numberline {5.1.2.}Proceso „Konspekto įkėlimas” sekų diagrama}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{IŠVADOS}{27}
+\contentsline {subsection}{\numberline {5.2.}Veiklos diagramos}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ŠALTINIAI}{28}
+\contentsline {subsubsection}{\numberline {5.2.1.}Žinutės išsiuntimo veiklos diagrama}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.2.}Naujienos paskelbimo veiklos diagrama}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{IŠVADOS}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ŠALTINIAI}{30}
