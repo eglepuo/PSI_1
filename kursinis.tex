@@ -361,9 +361,25 @@ Komponentų diagramos nuliniame lygmenyje (19 pav.) vaizduojamas bendras kompone
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{img/1lygmuo.png}
-	\caption{Komponentų diagramos nulinis lygmuo}
+	\caption{Komponentų diagramos pirmasis lygmuo}
 	\label{fig:0lygmuo}
 \end{figure}
+
+Komponentų diagramos pirmame lygmenyje komponentų diagrama yra suskaidoma. Socialinė Vilniaus universiteto sistema yra suskaidoma į šiuos komponentus: Duomenų bazė, Asmeninis puslapis, DUK, Renginiai, Žinutės, Naujienos, Naudotojų sąrašas. Šiame lygyje kiekviena vartotojo sąsaja turi už ją atsakingus komponentus. Taip pat kiekvienas komponentas turi sąsajas su kitais komponentais tam, jog galėtų vykti sąveika ir keitimasis paslaugomis. Tokiu būdu yra užtikrinama visapusiška komponentų realizacija bei tarpusavio darna.
+
+\subsection{Komponentų diagramos antrasis lygmuo}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{img/2lygmuo.png}
+	\caption{Komponentų diagramos antrasis lygmuo}
+	\label{fig:0lygmuo}
+\end{figure}
+
+Antrame lygmenyje dekomponavimui buvo pasitelktas MVC dizaino šablonas. Šis modelis buvo pasirinktas dėl jo paprastumo, universalumo ir populiarumo.
+MVC šabloną sudaro trys pagrindiniai komponentai: Model, View ir Controller. Model (šiuo atveju, mūsų Sistema) – pagrindinis šablono komponentas, jis atsakingas už visos sistemos elgesį probleminėje situacijoje, nepriklausomai nuo vartotojo sąsajos, taip pat jis atsakingas už duomenis, logiką ir taisykles. Vaizdas (view) – komponentas, kuris
+yra atsakingas už informacijos atvaizdavimą, jos atnaujinimą. Valdiklis – komponentas,
+kuris rūpinasi duomenų įvestimi ir įvesties apdorojimu.
 
 \newpage
 \section{FIZINIS PJŪVIS}
