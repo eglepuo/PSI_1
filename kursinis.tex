@@ -44,11 +44,7 @@
 \cleardoublepage\pagenumbering{arabic}
 \setcounter{page}{2}
 \sectionnonum{ANOTACIJA}
-Šiame dokumente pateikiami funkciniai ir nefunkciniai reikalavimai sistemai. Sistema ana-
-lizuojama taikant ICONIX metodą. Apibrėžiamas struktūrinis dalykinės srities modelis, paaiški-
-namos sistemoje naudojamos sąvokos. Taip pat aprašomos sistemoje atliekamos užduotys, anali-
-zuojami pagrindiniai ir alternatyvūs užduoties scenarijai, naudojant sekų diagramas. Apibrėžiama
-techninė kuriamos sistemos architektūra bei testavimo planas ir scenarijai. Kuriamos sistemos architektūra aprašoma naudojant UML 4+1 požiūrių
+Šiame dokumente kuriamos sistemos architektūra aprašoma naudojant UML 4+1 požiūrių
 rinkinį. Žvelgiama į sistemą 5 skirtingais požiūriais. Loginis pjūvis skirtas parodyti sistemos
 funkcionalumą, aprašyti santykius tarp esybių. Užduočių pjūvyje pateiksime, kokias užduotis gali
 įgyvendinti naudotojas, kokie jų įgyvendimo scenarijai. Kūrimo pjūvyje pateikiama, kaip susiję atskiri
@@ -65,10 +61,8 @@ Rašant šį dokumentą buvo naudojamasi:
 \newpage
 %TURINYS
 \tableofcontents
-\begin{center}
 \sectionnonum{ĮVADAS}
-\end{center}
-\textbf{Tikslas}  - sukurti socialinio tinklalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.\\
+Šio dokumento tikslas - sukurti socialinio tinklalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.\\
 \textbf{Temos aktualumas} \\
 Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.\\
 \textbf{Dalykinė sritis}\\
@@ -483,7 +477,6 @@ vyksta sistemoje bei išreiškiama komunikacija tarp jų.
 \subsection{Proceso sekų diagramos}
 Procesų sekų diagramose, atsispindi procesai, kurie yra vykdomi sistemoje. Iš proceso
 sekų diagramos galima matyti, kokie komponentai dalyvauja vykdyme, kaip procesas vykdomas.
-\subsubsection{Proceso „Prisijungimas” sekų diagrama}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{img/login.jpg}
@@ -495,7 +488,6 @@ UI gautus duomenis siunčia patikrinimui į autentifikacijos kontrolerį. Iš ko
 gaunamas atsakymas, ar duomenys teisingi ar ne. Jei duomenys klaidingi, naudotojui išmetamas pranešimas,
 jog prisijungti negalima ir jis vėl gali kartoti prisijungimo procesą. Jei duomenys teisingi,
 naudotojas yra nukreipiamas į pagrindinį puslapį.
-\subsubsection{Proceso „Konspekto įkėlimas” sekų diagrama}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{img/summary.jpg}
@@ -526,7 +518,7 @@ atgal į žinutės siuntimo formą. Jei duomenys atitinka visus reikalavimus, ta
 \end{figure}
 \ref{fig:postNews} pav. diagramoje matomas, naujienos paskelbimo procesas. Procesas prasideda naudotojo prisijungimu. Neteisingai suvedus prisijungimo duomenis naudotojas vėl nukreipiamas į prisjungimą, kitu atveju jis nukreipiamas į pagridinį puslapį bei pasirenka naujienos paskelbimo nuorodą. Naudotojas parašo naujieną bei ją paskelbia. Jei skelbiant naujieną įvyksta klaida jis nukreipiamas į naujienos rašymo formą, kitu atveju naujiena paskelbiama.
 \newpage
-\sectionnonum{REZULTATAI IR IŠVADOS}
+\sectionnonum{REZULTATAI}
 Kuriamos sistemos architektūra išnagrinėta naudojant UML 4+1 požiūrių rinkinį. Iš loginio, užduočių, kūrimo, fizinio bei procesų pjūvių matome sistemos funkcionalumą, užduotis, kurias gali
 įgyvendinti naudotojas, sąsajas tarp atskirų sistemos komponentų, sistemos įrangą bei dinaminį sistemos modelį.
 \newpage
