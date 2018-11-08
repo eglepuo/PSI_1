@@ -18,56 +18,66 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.}Užduočių vykdymo scenarijai}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Užduoties „Pridėti naujieną“ scenarijus}{8}
+\contentsline {subsection}{\numberline {2.3.}Užduoties "Pridėti naujieną" scenarijus}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.}Užduoties „Ištrinti naujieną“ scenarijus}{9}
+\contentsline {subsection}{\numberline {2.4.}Užduoties "Ištrinti naujieną" scenarijus}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.}Užduoties „Redaguoti naujieną“ scenarijus}{10}
+\contentsline {subsection}{\numberline {2.5.}Užduoties "Redaguoti naujieną" scenarijus}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.}Užduoties „Peržiūrėti naujienas“ scenarijus}{11}
+\contentsline {subsection}{\numberline {2.6.}Užduoties "Peržiūrėti naujienas" scenarijus}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.}Užduoties „Pridėti renginį“ scenarijus}{11}
+\contentsline {subsection}{\numberline {2.7.}Užduoties "Pridėti renginį" scenarijus}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.}Užduoties „Ištrinti renginį“ scenarijus}{12}
+\contentsline {subsection}{\numberline {2.8.}Užduoties "Ištrinti renginį" scenarijus}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9.}Užduoties „Redaguoti renginį“ scenarijus}{13}
+\contentsline {subsection}{\numberline {2.9.}Užduoties "Redaguoti renginį" scenarijus}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.10.}Užduoties „Peržiūrėti renginius“ scenarijus}{14}
+\contentsline {subsection}{\numberline {2.10.}Užduoties "Peržiūrėti renginius" scenarijus}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.11.}Užduoties „Pridėti D.U.K.“ scenarijus}{14}
+\contentsline {subsection}{\numberline {2.11.}Užduoties "Pridėti D.U.K." scenarijus}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.12.}Užduoties „Peržiūrėti D.U.K.“ scenarijus}{15}
+\contentsline {subsection}{\numberline {2.12.}Užduoties "Peržiūrėti D.U.K." scenarijus}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.13.}Užduoties „Redaguoti pasirinktą klausimą“ scenarijus}{16}
+\contentsline {subsection}{\numberline {2.13.}Užduoties "Redaguoti pasirinktą klausimą" scenarijus}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.14.}Užduoties „Peržiūrėti pasirinkto dėstytojo teikiamą informaciją“ scenarijus}{17}
+\contentsline {subsection}{\numberline {2.14.}Užduoties "Peržiūrėti pasirinkto dėstytojo teikiamą informaciją" scenarijus}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.15.}Užduoties „Peržiūrėti pasirinktą žinutę“ scenarijus}{18}
+\contentsline {subsection}{\numberline {2.15.}Užduoties "Peržiūrėti pasirinktą žinutę" scenarijus}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.16.}Užduoties „Siųsti žinutę“ scenarijus}{19}
+\contentsline {subsection}{\numberline {2.16.}Užduoties "Siųsti žinutę" scenarijus}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.17.}Užduoties „Redaguoti asmeninį dėstytojo puslapį“ scenarijus}{20}
+\contentsline {subsection}{\numberline {2.17.}Užduoties "Redaguoti asmeninį dėstytojo puslapį" scenarijus}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}KŪRIMO PJŪVIS}{21}
+\contentsline {section}{\numberline {3.}KŪRIMO PJŪVIS}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Komponentų diagramos nulinis lygmuo}{21}
+\contentsline {subsection}{\numberline {3.1.}Komponentų diagramos nulinis lygmuo}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Komponentų diagramos pirmasis lygmuo}{22}
+\contentsline {subsection}{\numberline {3.2.}Komponentų diagramos pirmasis lygmuo}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Komponentų diagramos antrasis lygmuo}{23}
+\contentsline {subsection}{\numberline {3.3.}Komponentų diagramos antrasis lygmuo}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}FIZINIS PJŪVIS}{24}
+\contentsline {section}{\numberline {4.}FIZINIS PJŪVIS}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Dislokavimo diagrama nr. 1 (komponentų ir artefaktų ryšių diagrama)}{24}
+\contentsline {subsection}{\numberline {4.1.}Dislokavimo diagrama nr. 1 (komponentų ir artefaktų ryšių diagrama)}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Dislokavimo diagrama nr. 2 (mazgų ir artefaktų ryšių diagrama)}{25}
+\contentsline {subsection}{\numberline {4.2.}Dislokavimo diagrama nr. 2 (mazgų ir artefaktų ryšių diagrama)}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Dislokavimo diagrama nr. 3 (mazgų ir artefaktų egzempliorių diagrama)}{26}
+\contentsline {subsection}{\numberline {4.3.}Dislokavimo diagrama nr. 3 (mazgų ir artefaktų egzempliorių diagrama)}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}PROCESO PJŪVIS}{27}
+\contentsline {section}{\numberline {5.}PROCESO PJŪVIS}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.}Proceso sekų diagramos}{27}
+\contentsline {subsection}{\numberline {5.1.}Proceso sekų diagramos}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.}Veiklos diagramos}{28}
+\contentsline {subsubsection}{\numberline {5.1.1.}Proceso „Prisijungimas” sekų diagrama}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{REZULTATAI}{31}
+\contentsline {subsubsection}{\numberline {5.1.2.}Proceso „Konspekto įkėlimas” sekų diagrama}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.}Veiklos diagramos}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1.}Žinutės išsiuntimo veiklos diagrama}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.2.}Naujienos paskelbimo veiklos diagrama}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{IŠVADOS}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ŠALTINIAI}{30}
