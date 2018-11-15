@@ -375,6 +375,36 @@ Užduočių vykdymo scenarijai, atvaizduoja agentų, šiuo atveju studento 
 	\item Rodyti puslapį - kontroleris prašo duomenų bazės gauti redaguotą dėstytojo puslapio informaciją.
 	\item Asmeninis dėstytojo puslapis - dėstytojo puslapio informacija keliauja iš duomenų bazės dėstytojui.
 \end{enumerate}
+\subsection{Užduoties "Įkelti konspektą" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/addKons.png}
+	\caption{Užduoties  ""Įkelti konspektą" scenarijus}
+	\label{fig:addKons}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:addKons}pav.)}\\
+\begin{enumerate}
+	\item Įkelti konspektą - studentas paspaudžia nuorodą įkelti konspektą.
+	\item Informacija apie konspektą, priedas - konspektų UI išmeta studentui konspekto formą užpildymui, bei pasirinkimui failo, kurį norima pridėti.
+	\item Konspekto informacija - naudotojas išsiunčia užpildytą formą Konspektų UI.
+	\item Įkelti klausimą - pateikta konspekto informacija yra siunčiama kontroleriui.
+	\item Pridėti konspektą - Konpektų UI įdeda konspektą į duomenų bazę.
+	\item Konspektas pridėtas - duomenų bazė parsiunčia konspekto patalpinimo patvirtinimą.
+	\item Gauti konspektų sąrašą - konspektų kontroleris prašo duomenų bazės pateikti naują konspektų sąrašą.
+	\item Konspektų sąrašas - Konspektų sąrašas keliauja iš duomenų bazės iki studento.
+\subsection{Užduoties "Peržiūrėti konspektus" scenarijus}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{img/addKons.png}
+	\caption{Užduoties "Peržiūrėti konspektus" scenarijus}
+	\label{fig:viewKons}
+\end{figure}
+\textbf{Žingsnių seka (\ref{fig:viewKons}pav.)}\\
+\begin{enumerate}
+	\item Gauti konspektų sąrašą - studentas paspaudžia nuorodą į konspektų sąrašą.
+	\item Gauti konspektų sąrašą - prašymas gauti konspektų sąrašą keliauja iki duomenų bazės.
+	\item Konspektų sąrašas - konspektų sąrašas iš duomenų bazės keliauja iki naudotojo.
+\end{enumerate}
 \newpage
 \section{KŪRIMO PJŪVIS}
 Programų sistemos komponentai yra vaizduojami trimis lygmenimis: nuliniu, pirmuoju ir antruoju. Toks komponentų pateikimas leidžia išsamiau apibrėžti sistemos fizinius komponentus, jų konfigūraciją bei tarpusavio ryšius. Komponentų diagramos, atvaizduodamos struktūrą, priklausomybes bei sąsajas, leidžia susidaryti fizinį sistemos vaizdą. Taip pat suteikia galimybę apžvelgti išoriškai matomą komponentų elgseną. Komponentai atvaizduojami naudojant UML komponentų diagramas.
